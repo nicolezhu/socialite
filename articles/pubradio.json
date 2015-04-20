@@ -1,0 +1,381 @@
+[
+    {
+        "favorited": false, 
+        "tweet": "The Whiteness Of \u201cPublic Radio Voice\u201d (via @Pocket) #longreads http://t.co/SNMOFEYQTZ", 
+        "hashtags": [
+            {
+                "indices": [
+                    52, 
+                    62
+                ], 
+                "text": "longreads"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 27530178, 
+                "indices": [
+                    43, 
+                    50
+                ], 
+                "id_str": "27530178", 
+                "screen_name": "Pocket", 
+                "name": "Pocket"
+            }
+        ], 
+        "source": "iOS", 
+        "user": "katiebreslin", 
+        "urls": "http://t.co/SNMOFEYQTZ", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "The Whiteness Of \u201cPublic Radio Voice\u201d http://t.co/L5ZBNgyhDD via @catchatweetdown @buzzfeed", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 74008418, 
+                "indices": [
+                    65, 
+                    81
+                ], 
+                "id_str": "74008418", 
+                "screen_name": "catchatweetdown", 
+                "name": "Chenjerai Kumanyika"
+            }, 
+            {
+                "id": 5695632, 
+                "indices": [
+                    82, 
+                    91
+                ], 
+                "id_str": "5695632", 
+                "screen_name": "BuzzFeed", 
+                "name": "BuzzFeed"
+            }
+        ], 
+        "source": "Mobile Web", 
+        "user": "jetude", 
+        "urls": "http://t.co/L5ZBNgyhDD", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @TylerBorchers: \"Public radio has become a kind of speech community with its own norms and forms of aesthetic capital.\" http://t.co/9nkd\u2026", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 281281015, 
+                "indices": [
+                    3, 
+                    17
+                ], 
+                "id_str": "281281015", 
+                "screen_name": "TylerBorchers", 
+                "name": "Tyler Borchers"
+            }
+        ], 
+        "source": "Twitter for iPhone", 
+        "user": "curryleepickpop", 
+        "urls": "http://t.co/9nkdL4o7c9", 
+        "retweet_count": 1
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "\"Public radio has become a kind of speech community with its own norms and forms of aesthetic capital.\" http://t.co/9nkdL4o7c9", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Twitter for iPhone", 
+        "user": "TylerBorchers", 
+        "urls": "http://t.co/9nkdL4o7c9", 
+        "retweet_count": 1
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "\"We all know what's going on there...\" The Whiteness Of \u201cPublic Radio Voice\u201d http://t.co/VcsuW0xwEt via @catchatweetdown @buzzfeed", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 74008418, 
+                "indices": [
+                    104, 
+                    120
+                ], 
+                "id_str": "74008418", 
+                "screen_name": "catchatweetdown", 
+                "name": "Chenjerai Kumanyika"
+            }, 
+            {
+                "id": 5695632, 
+                "indices": [
+                    121, 
+                    130
+                ], 
+                "id_str": "5695632", 
+                "screen_name": "BuzzFeed", 
+                "name": "BuzzFeed"
+            }
+        ], 
+        "source": "Mobile Web", 
+        "user": "stephjoke", 
+        "urls": "http://t.co/VcsuW0xwEt", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "Have you heard the term code-switching? @catchatweetdown explains in this @BuzzFeed  piece: http://t.co/cwOE2yY7SG", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 74008418, 
+                "indices": [
+                    40, 
+                    56
+                ], 
+                "id_str": "74008418", 
+                "screen_name": "catchatweetdown", 
+                "name": "Chenjerai Kumanyika"
+            }, 
+            {
+                "id": 5695632, 
+                "indices": [
+                    74, 
+                    83
+                ], 
+                "id_str": "5695632", 
+                "screen_name": "BuzzFeed", 
+                "name": "BuzzFeed"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "premgill", 
+        "urls": "http://t.co/cwOE2yY7SG", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "The Whiteness Of \u201cPublic Radio Voice\u201d http://t.co/OpB7PhTxIb via @catchatweetdown @buzzfeed", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 74008418, 
+                "indices": [
+                    65, 
+                    81
+                ], 
+                "id_str": "74008418", 
+                "screen_name": "catchatweetdown", 
+                "name": "Chenjerai Kumanyika"
+            }, 
+            {
+                "id": 5695632, 
+                "indices": [
+                    82, 
+                    91
+                ], 
+                "id_str": "5695632", 
+                "screen_name": "BuzzFeed", 
+                "name": "BuzzFeed"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "ilanabelfer", 
+        "urls": "http://t.co/OpB7PhTxIb", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @sritoper: On point. RT @willcoley: .@kai_wright FYI: The Whiteness Of \u201cPublic Radio Voice\u201d http://t.co/pGFjqovjhA via @catchatweetdown \u2026", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 92342826, 
+                "indices": [
+                    3, 
+                    12
+                ], 
+                "id_str": "92342826", 
+                "screen_name": "sritoper", 
+                "name": "Stefanie Ritoper"
+            }, 
+            {
+                "id": 14205876, 
+                "indices": [
+                    27, 
+                    37
+                ], 
+                "id_str": "14205876", 
+                "screen_name": "willcoley", 
+                "name": "Will Coley"
+            }, 
+            {
+                "id": 57438788, 
+                "indices": [
+                    40, 
+                    51
+                ], 
+                "id_str": "57438788", 
+                "screen_name": "kai_wright", 
+                "name": "Kai Wright"
+            }, 
+            {
+                "id": 74008418, 
+                "indices": [
+                    122, 
+                    138
+                ], 
+                "id_str": "74008418", 
+                "screen_name": "catchatweetdown", 
+                "name": "Chenjerai Kumanyika"
+            }, 
+            {
+                "id": 5695632, 
+                "indices": [
+                    139, 
+                    140
+                ], 
+                "id_str": "5695632", 
+                "screen_name": "BuzzFeed", 
+                "name": "BuzzFeed"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "vafakhavari", 
+        "urls": "http://t.co/pGFjqovjhA", 
+        "retweet_count": 1
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @willcoley: .@kai_wright FYI: The Whiteness Of \u201cPublic Radio Voice\u201d http://t.co/Xy8YJC3aqb via @catchatweetdown @buzzfeed", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 14205876, 
+                "indices": [
+                    3, 
+                    13
+                ], 
+                "id_str": "14205876", 
+                "screen_name": "willcoley", 
+                "name": "Will Coley"
+            }, 
+            {
+                "id": 57438788, 
+                "indices": [
+                    16, 
+                    27
+                ], 
+                "id_str": "57438788", 
+                "screen_name": "kai_wright", 
+                "name": "Kai Wright"
+            }, 
+            {
+                "id": 74008418, 
+                "indices": [
+                    98, 
+                    114
+                ], 
+                "id_str": "74008418", 
+                "screen_name": "catchatweetdown", 
+                "name": "Chenjerai Kumanyika"
+            }, 
+            {
+                "id": 5695632, 
+                "indices": [
+                    115, 
+                    124
+                ], 
+                "id_str": "5695632", 
+                "screen_name": "BuzzFeed", 
+                "name": "BuzzFeed"
+            }
+        ], 
+        "source": "Hootsuite", 
+        "user": "rework_radio", 
+        "urls": "http://t.co/Xy8YJC3aqb", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "On point. RT @willcoley: .@kai_wright FYI: The Whiteness Of \u201cPublic Radio Voice\u201d http://t.co/pGFjqovjhA via @catchatweetdown @buzzfeed", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 14205876, 
+                "indices": [
+                    13, 
+                    23
+                ], 
+                "id_str": "14205876", 
+                "screen_name": "willcoley", 
+                "name": "Will Coley"
+            }, 
+            {
+                "id": 57438788, 
+                "indices": [
+                    26, 
+                    37
+                ], 
+                "id_str": "57438788", 
+                "screen_name": "kai_wright", 
+                "name": "Kai Wright"
+            }, 
+            {
+                "id": 74008418, 
+                "indices": [
+                    108, 
+                    124
+                ], 
+                "id_str": "74008418", 
+                "screen_name": "catchatweetdown", 
+                "name": "Chenjerai Kumanyika"
+            }, 
+            {
+                "id": 5695632, 
+                "indices": [
+                    125, 
+                    134
+                ], 
+                "id_str": "5695632", 
+                "screen_name": "BuzzFeed", 
+                "name": "BuzzFeed"
+            }
+        ], 
+        "source": "Hootsuite", 
+        "user": "sritoper", 
+        "urls": "http://t.co/pGFjqovjhA", 
+        "retweet_count": 1
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @jasminejohn: The Whiteness Of \u201cPublic Radio Voice\u201d | http://t.co/PBSm6FJMO1", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 24310585, 
+                "indices": [
+                    3, 
+                    15
+                ], 
+                "id_str": "24310585", 
+                "screen_name": "jasminejohn", 
+                "name": "Jasmine Johnson"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "isanaka", 
+        "urls": "http://t.co/PBSm6FJMO1", 
+        "retweet_count": 4
+    }
+]

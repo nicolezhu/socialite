@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Socialite</title>
+
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery.highlight.js"></script>
+		<script src="js/getarticle.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,400italic,300italic,300,800' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<img id="logo" src="img/logo.png">
+		<p class="description">Socialite aims to close the social sharing loop for articles. It scrapes recent tweets about a specified article and highlights tweeted quotes in the article text itself. The prototype was built by <a href="https://twitter.com/nicolelzhu" target="_blank">Nicole Zhu</a> and <a href="https://twitter.com/ashhwu" target="_blank">Ashley Wu</a> as part of the <a href="https://twitter.com/knightlab" target="_blank">Knight Lab</a> student fellowship.</p>
+		<p class="description">Feel free to <a href="mailto:nzhu94@gmail.com" target="_blank">contact us</a> with your thoughts and comments!</p>
+			<!-- article submission form -->
+		<div id="form">
+			<p>Test an article</p>
+			<ul>
+				<li id="50shades">"No Pain, No Gain" by Anthony Lane (<em>The New Yorker</em>)</li>
+				<li id="dress">"Yes to the Dress?" by Paul Ford (<em>Medium</em>)</li>
+			</ul>
+			<input type="text" name="articlelink" id="article-link" placeholder="https://medium.com/message/yes-to-the-dress-5ec06c06aca4">
+			<button id="submit" class="btn btn-1a">Submit</button>
+		</div>
+
+		<div id="container">
+			<div id="output"></div>
+			<div id="tweet-data">
+			</div>
+		</div>
+	</body>
+</html>

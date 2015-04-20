@@ -1,0 +1,751 @@
+[
+    {
+        "favorited": false, 
+        "tweet": "\u201cIt\u2019s a nerd impulse. Dogs chase after thrown balls, system administrators design to arbitrary traffic.\u201d \nhttps://t.co/WiBS6DxHNl", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Twitter for iPad", 
+        "user": "mdulghier", 
+        "urls": "https://t.co/WiBS6DxHNl", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": ".@PAPERmagazine: Scaling Kim Kardashian to 100 Million Page Views\nhttps://t.co/VoTRqdFprn\n#AWS #Tornado #Varnish http://t.co/UbWq93rjFP", 
+        "hashtags": [
+            {
+                "indices": [
+                    90, 
+                    94
+                ], 
+                "text": "AWS"
+            }, 
+            {
+                "indices": [
+                    95, 
+                    103
+                ], 
+                "text": "Tornado"
+            }, 
+            {
+                "indices": [
+                    104, 
+                    112
+                ], 
+                "text": "Varnish"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 11277292, 
+                "indices": [
+                    1, 
+                    15
+                ], 
+                "id_str": "11277292", 
+                "screen_name": "papermagazine", 
+                "name": "PAPER Magazine"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "Six9s", 
+        "urls": "https://t.co/VoTRqdFprn", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "Looking at other times the 'internet broke' here's how Paper magazine managed to stay up when posting Kim K photos  http://t.co/Ak7RYXX1p4", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Buffer", 
+        "user": "SteveWyvern", 
+        "urls": "http://t.co/Ak7RYXX1p4", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW) http://t.co/FnJHKy0kSS", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Buffer", 
+        "user": "johnywith1n", 
+        "urls": "http://t.co/FnJHKy0kSS", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "Amazon Web Services vs. Kim Kardashian -  http://t.co/C6x29jegQY", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Buffer", 
+        "user": "MichaelKabuage", 
+        "urls": "http://t.co/C6x29jegQY", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "When @papermagazine put that KimK cover online they planned ahead https://t.co/0XEY5RQMBw Not so much @NH7 when selling Seinfeld tickets.", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 11277292, 
+                "indices": [
+                    5, 
+                    19
+                ], 
+                "id_str": "11277292", 
+                "screen_name": "papermagazine", 
+                "name": "PAPER Magazine"
+            }, 
+            {
+                "id": 15875921, 
+                "indices": [
+                    102, 
+                    106
+                ], 
+                "id_str": "15875921", 
+                "screen_name": "NH7", 
+                "name": "NH7"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "thrillpill", 
+        "urls": "https://t.co/0XEY5RQMBw", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How PAPER Magazine\u2019s web engineers scaled Kim Kardashian\u2019s back-end (SFW) https://t.co/z4aaQEeZ6y", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Circulate.it", 
+        "user": "tony_daurora", 
+        "urls": "https://t.co/z4aaQEeZ6y", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW) http://t.co/3H1Uzy7qy6 http://t.co/Q5tCO1Yt1b", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "IFTTT", 
+        "user": "MarkMillerITPro", 
+        "urls": "http://t.co/3H1Uzy7qy6", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How PAPER Magazine\u2019s web engineers scaled Kim Kardashian\u2019s back-end (SFW) https://t.co/f4rqYgsyaZ", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Circulate.it", 
+        "user": "trstrickland25", 
+        "urls": "https://t.co/f4rqYgsyaZ", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How PAPER Magazine\u2019s web engineers scaled Kim Kardashian\u2019s back-end (SFW) \u2014 The Message \u2014 Medium https://t.co/CTBMRJQF3O", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "iOS", 
+        "user": "riffkhan", 
+        "urls": "https://t.co/CTBMRJQF3O", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @dimensioner: #burningman2015 - system is down. Should have got that advice from Greg Knauss over at Paper http://t.co/Lqa3wUhonJ", 
+        "hashtags": [
+            {
+                "indices": [
+                    17, 
+                    32
+                ], 
+                "text": "burningman2015"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 37793923, 
+                "indices": [
+                    3, 
+                    15
+                ], 
+                "id_str": "37793923", 
+                "screen_name": "dimensioner", 
+                "name": "Samuel Smith"
+            }
+        ], 
+        "source": "TweetDeck", 
+        "user": "tomkelshaw", 
+        "urls": "http://t.co/Lqa3wUhonJ", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "#burningman2015 - system is down. Should have got that advice from Greg Knauss over at Paper https://t.co/5dvnZuJHfV", 
+        "hashtags": [
+            {
+                "indices": [
+                    0, 
+                    15
+                ], 
+                "text": "burningman2015"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Twitter Web Client", 
+        "user": "dimensioner", 
+        "urls": "https://t.co/5dvnZuJHfV", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @anildash: @clarajeffery that's @gknauss, scaling expert to the stars! Not just Paper, but so much more. (See also: https://t.co/Kz85QKU\u2026", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 36823, 
+                "indices": [
+                    3, 
+                    12
+                ], 
+                "id_str": "36823", 
+                "screen_name": "anildash", 
+                "name": "Anil Dash"
+            }, 
+            {
+                "id": 43412697, 
+                "indices": [
+                    14, 
+                    27
+                ], 
+                "id_str": "43412697", 
+                "screen_name": "ClaraJeffery", 
+                "name": "Clara Jeffery"
+            }, 
+            {
+                "id": 3163591, 
+                "indices": [
+                    35, 
+                    43
+                ], 
+                "id_str": "3163591", 
+                "screen_name": "gknauss", 
+                "name": "Greg Knauss"
+            }
+        ], 
+        "source": "Twitter for iPhone", 
+        "user": "robertgorell", 
+        "urls": "https://t.co/Kz85QKURhx", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @anildash: @clarajeffery that's @gknauss, scaling expert to the stars! Not just Paper, but so much more. (See also: https://t.co/Kz85QKU\u2026", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 36823, 
+                "indices": [
+                    3, 
+                    12
+                ], 
+                "id_str": "36823", 
+                "screen_name": "anildash", 
+                "name": "Anil Dash"
+            }, 
+            {
+                "id": 43412697, 
+                "indices": [
+                    14, 
+                    27
+                ], 
+                "id_str": "43412697", 
+                "screen_name": "ClaraJeffery", 
+                "name": "Clara Jeffery"
+            }, 
+            {
+                "id": 3163591, 
+                "indices": [
+                    35, 
+                    43
+                ], 
+                "id_str": "3163591", 
+                "screen_name": "gknauss", 
+                "name": "Greg Knauss"
+            }
+        ], 
+        "source": "Twitter for iPhone", 
+        "user": "ClaraJeffery", 
+        "urls": "https://t.co/Kz85QKURhx", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "@clarajeffery that's @gknauss, scaling expert to the stars! Not just Paper, but so much more. (See also: https://t.co/Kz85QKURhx )", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 43412697, 
+                "indices": [
+                    0, 
+                    13
+                ], 
+                "id_str": "43412697", 
+                "screen_name": "ClaraJeffery", 
+                "name": "Clara Jeffery"
+            }, 
+            {
+                "id": 3163591, 
+                "indices": [
+                    21, 
+                    29
+                ], 
+                "id_str": "3163591", 
+                "screen_name": "gknauss", 
+                "name": "Greg Knauss"
+            }
+        ], 
+        "source": "Twitter for Mac", 
+        "user": "anildash", 
+        "urls": "https://t.co/Kz85QKURhx", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How @gknauss prepared @papermagazine for #breaktheinternet using @gluster http://t.co/80uj2Utum7 #sysadmin", 
+        "hashtags": [
+            {
+                "indices": [
+                    41, 
+                    58
+                ], 
+                "text": "breaktheinternet"
+            }, 
+            {
+                "indices": [
+                    97, 
+                    106
+                ], 
+                "text": "sysadmin"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 3163591, 
+                "indices": [
+                    4, 
+                    12
+                ], 
+                "id_str": "3163591", 
+                "screen_name": "gknauss", 
+                "name": "Greg Knauss"
+            }, 
+            {
+                "id": 11277292, 
+                "indices": [
+                    22, 
+                    36
+                ], 
+                "id_str": "11277292", 
+                "screen_name": "papermagazine", 
+                "name": "PAPER Magazine"
+            }, 
+            {
+                "id": 431758864, 
+                "indices": [
+                    65, 
+                    73
+                ], 
+                "id_str": "431758864", 
+                "screen_name": "gluster", 
+                "name": "GLUSTER"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "UNIXSA", 
+        "urls": "http://t.co/80uj2Utum7", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @d_sathe: Now that folks is called scaling the \"backend\" https://t.co/OrL8qw6ruI", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 46333764, 
+                "indices": [
+                    3, 
+                    11
+                ], 
+                "id_str": "46333764", 
+                "screen_name": "d_sathe", 
+                "name": "Dhananjay Sathe"
+            }
+        ], 
+        "source": "Twitter for Android", 
+        "user": "sunketh", 
+        "urls": "https://t.co/OrL8qw6ruI", 
+        "retweet_count": 1
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "Now that folks is called scaling the \"backend\" https://t.co/OrL8qw6ruI", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Twitter Web Client", 
+        "user": "d_sathe", 
+        "urls": "https://t.co/OrL8qw6ruI", 
+        "retweet_count": 1
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @colinraney: Pretty excellent: How PAPER Magazine\u2019s web engineers scaled Kim Kardashian\u2019s back-end (SFW). http://t.co/eODlbBWphS", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 7215612, 
+                "indices": [
+                    3, 
+                    14
+                ], 
+                "id_str": "7215612", 
+                "screen_name": "colinraney", 
+                "name": "Colin Raney"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "rachelderkits", 
+        "urls": "http://t.co/eODlbBWphS", 
+        "retweet_count": 1
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "I see what you did there  https://t.co/OL0ixdiGwi http://t.co/SoUyq8JWkC", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "TweetDeck", 
+        "user": "jbschaff", 
+        "urls": "https://t.co/OL0ixdiGwi", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "Linked: Designing a Backend for a Famous Backend https://t.co/KUNPXpdgu1", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "OS X", 
+        "user": "dashorst", 
+        "urls": "https://t.co/KUNPXpdgu1", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @varnishsoftware: Don't use #Varnish if you are attempting to #BreakTheInternet: http://t.co/ZMBfE9r6zT http://t.co/6IwQFHl8t7", 
+        "hashtags": [
+            {
+                "indices": [
+                    31, 
+                    39
+                ], 
+                "text": "Varnish"
+            }, 
+            {
+                "indices": [
+                    65, 
+                    82
+                ], 
+                "text": "BreakTheInternet"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 123236640, 
+                "indices": [
+                    3, 
+                    19
+                ], 
+                "id_str": "123236640", 
+                "screen_name": "varnishsoftware", 
+                "name": "Varnish Software"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "haakond", 
+        "urls": "http://t.co/ZMBfE9r6zT", 
+        "retweet_count": 4
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "Marvel should have hired @gknauss to make sure those Spider Servers stay up.\nhttps://t.co/aNc9qkQtMH", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 3163591, 
+                "indices": [
+                    25, 
+                    33
+                ], 
+                "id_str": "3163591", 
+                "screen_name": "gknauss", 
+                "name": "Greg Knauss"
+            }
+        ], 
+        "source": "Tweetbot for i\u039fS", 
+        "user": "joesteel", 
+        "urls": "https://t.co/aNc9qkQtMH", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @CBTNuggets: How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW): http://t.co/DrwTi7AQlt http://t.co/1l1E0\u2026", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 20445803, 
+                "indices": [
+                    3, 
+                    14
+                ], 
+                "id_str": "20445803", 
+                "screen_name": "CBTNuggets", 
+                "name": "CBT Nuggets"
+            }
+        ], 
+        "source": "Twitter for iPhone", 
+        "user": "JMGJ1985", 
+        "urls": "http://t.co/DrwTi7AQlt", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @Werner: \"How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW)\" - cool write up by @ftrain #AWS https://t.c\u2026", 
+        "hashtags": [
+            {
+                "indices": [
+                    123, 
+                    127
+                ], 
+                "text": "AWS"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 113963, 
+                "indices": [
+                    3, 
+                    10
+                ], 
+                "id_str": "113963", 
+                "screen_name": "Werner", 
+                "name": "Werner Vogels"
+            }, 
+            {
+                "id": 6981492, 
+                "indices": [
+                    115, 
+                    122
+                ], 
+                "id_str": "6981492", 
+                "screen_name": "ftrain", 
+                "name": "Paul Ford"
+            }
+        ], 
+        "source": "Tweetlogix", 
+        "user": "_plaidcat_", 
+        "urls": "https://t.co/ocyRIZoKg3", 
+        "retweet_count": 27
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW): http://t.co/DrwTi7AQlt http://t.co/1l1E0jNuaH", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Hootsuite", 
+        "user": "CBTNuggets", 
+        "urls": "http://t.co/DrwTi7AQlt", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "\u201cHow PAPER Magazine\u2019s web engineers scaled Kim Kardashian\u2019s back-end (SFW)\u201d by @ftrain https://t.co/9YmbusdOcl", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 6981492, 
+                "indices": [
+                    79, 
+                    86
+                ], 
+                "id_str": "6981492", 
+                "screen_name": "ftrain", 
+                "name": "Paul Ford"
+            }
+        ], 
+        "source": "Twitter Web Client", 
+        "user": "uncleSoWise", 
+        "urls": "https://t.co/9YmbusdOcl", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW) https://t.co/fu3IsmjtIt", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Twitter Web Client", 
+        "user": "deniszh", 
+        "urls": "https://t.co/fu3IsmjtIt", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @LISNews: \u201cHardware isn\u2019t the thing that doesn\u2019t scale anymore,\u201d said Knauss. \u201cIt\u2019s attention.\u201d  https://t.co/ND9WDvGB4E", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 10443712, 
+                "indices": [
+                    3, 
+                    11
+                ], 
+                "id_str": "10443712", 
+                "screen_name": "LISNews", 
+                "name": "LISNews.org"
+            }
+        ], 
+        "source": "Twitter for Android", 
+        "user": "KatrinaReads", 
+        "urls": "https://t.co/ND9WDvGB4E", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "RT @LISNews: \u201cHardware isn\u2019t the thing that doesn\u2019t scale anymore,\u201d said Knauss. \u201cIt\u2019s attention.\u201d  https://t.co/ND9WDvGB4E", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [
+            {
+                "id": 10443712, 
+                "indices": [
+                    3, 
+                    11
+                ], 
+                "id_str": "10443712", 
+                "screen_name": "LISNews", 
+                "name": "LISNews.org"
+            }
+        ], 
+        "source": "Twitter for iPhone", 
+        "user": "GretaWood", 
+        "urls": "https://t.co/ND9WDvGB4E", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": "\u201cHardware isn\u2019t the thing that doesn\u2019t scale anymore,\u201d said Knauss. \u201cIt\u2019s attention.\u201d  https://t.co/ND9WDvGB4E", 
+        "hashtags": [], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Twitter Web Client", 
+        "user": "LISNews", 
+        "urls": "https://t.co/ND9WDvGB4E", 
+        "retweet_count": 2
+    }, 
+    {
+        "favorited": false, 
+        "tweet": ".How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW) http://t.co/F1QPSERm7q \n#fashion #tech #breaktheinternet", 
+        "hashtags": [
+            {
+                "indices": [
+                    107, 
+                    115
+                ], 
+                "text": "fashion"
+            }, 
+            {
+                "indices": [
+                    116, 
+                    121
+                ], 
+                "text": "tech"
+            }, 
+            {
+                "indices": [
+                    122, 
+                    139
+                ], 
+                "text": "breaktheinternet"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Hootsuite", 
+        "user": "SoRevellers", 
+        "urls": "http://t.co/F1QPSERm7q", 
+        "retweet_count": 0
+    }, 
+    {
+        "favorited": false, 
+        "tweet": ".How PAPER Magazine\u2019s web engineers scaled their back-end for Kim Kardashian (SFW) http://t.co/tZEZWLlZf2 \n#fashion #tech #breaktheinternet", 
+        "hashtags": [
+            {
+                "indices": [
+                    107, 
+                    115
+                ], 
+                "text": "fashion"
+            }, 
+            {
+                "indices": [
+                    116, 
+                    121
+                ], 
+                "text": "tech"
+            }, 
+            {
+                "indices": [
+                    122, 
+                    139
+                ], 
+                "text": "breaktheinternet"
+            }
+        ], 
+        "retweeted": false, 
+        "user_mentions": [], 
+        "source": "Hootsuite", 
+        "user": "drZeeTips", 
+        "urls": "http://t.co/tZEZWLlZf2", 
+        "retweet_count": 0
+    }
+]
