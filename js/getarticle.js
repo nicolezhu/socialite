@@ -39,6 +39,7 @@ $(document).ready(function() {
 		  	// console.log(data["content"]);
 		  	// we only want this to happen when the user puts the link of the article in the form OBVIOUSLAY
 		  	console.log("it's working!")
+		  	console.log(data.authors);
 		  	$('#output').append('<p class="section-title">Article</p>' + data["content"]);
 		  	getFile();
 		});
