@@ -19,11 +19,6 @@ article["url"] = result["url"]
 article["headline"] = result["title"]
 article["description"] = result["description"]
 article["content"] = result["content"]
-# tweet["favorited"] = result.favorited
-# tweet["user_mentions"] = result.entities.get('user_mentions')
-# tweet["hashtags"] = result.entities.get('hashtags')
-# tweet["urls"] = result.entities.get('urls')[0]['url']
-# tweet["source"] = result.source
 
 print "URL:", result["url"]
 print "Headline:", result["title"]
