@@ -2,7 +2,7 @@ import collections
 import json
 from pprint import pprint
 
-with open('articles/brotherorange.json') as data_file:
+with open('articles/dress.json') as data_file:
 	data = json.load(data_file)
 
 tweet_frequencies = []
@@ -33,5 +33,5 @@ for result in data:
 
 	tweet_frequencies.append(tweet)
 
-subjects_file = open("articles/brotherorangedict.json", "w")
+subjects_file = open("articles/dressdict.json", "w")
 print >> json.dump(tweet_frequencies, subjects_file, indent=4)

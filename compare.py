@@ -2,12 +2,11 @@ from difflib import SequenceMatcher
 from bs4 import BeautifulSoup
 import csv
 import itertools
+import collections
 import json
+from pprint import pprint
 import requests
 from urlparse import urljoin
-
-def similar(a, b):
-	return SequenceMatcher(None, a, b).ratio()
 
 with open('articles/dressarticle.json') as data_file:
 	data = json.load(data_file)
@@ -17,14 +16,74 @@ tweet = "So interesting that @ftrain compares The Dress to \u201cSnow Fall\u201d
 article = data["content"].replace("<div>", "")
 
 paragraphs = []
+tweet_frequencies = []
+paragraph_frequencies = []
 
-for item in article.split("</p>"):
-	if "<p>" in item:
-		cleaned_paragraph = item.replace("<p>", "")
-		paragraphs.append(cleaned_paragraph)
+def similar(a, b):
+	return SequenceMatcher(None, a, b).ratio()
+
+def create_paragraphs():
+	for item in article.split("</p>"):
+		if "<p>" in item:
+			cleaned_paragraph = item.replace("<p>", "")
+			paragraphs.append(cleaned_paragraph)
 		# print cleaned_paragraph
 
-print paragraphs[0]
+def get_tweet_dict(tweet):
+	cleaned_tweet = tweet.lower().split()
+	c = collections.Counter(cleaned_tweet)
 
-for paragraph in paragraphs:
-	print similar(tweet, paragraph)
+	unique_words = list(set(cleaned_tweet))
+
+	tweet_text = {}
+	tweet_text['tweet'] = tweet
+	freq_dict = {}
+
+	for word in unique_words:
+		freq_dict[word] = c[word]
+		# print '%s : %d' % (word, c[word])
+
+	tweet_text['tweet_dict'] = freq_dict
+	# print tweet_text
+
+	tweet_frequencies.append(tweet_text)
+
+
+def get_paragraph_dict(paragraph):
+	cleaned_paragraph = paragraph.lower().split()
+	c = collections.Counter(cleaned_paragraph)
+
+	unique_words = list(set(cleaned_paragraph))
+
+	paragraph_text = {}
+	paragraph_text['paragraph'] = paragraph
+	freq_dict = {}
+
+	for word in unique_words:
+		freq_dict[word] = c[word]
+		# print '%s : %d' % (word, c[word])
+
+	paragraph_text['paragraph_dict'] = freq_dict
+	# print paragraph_text
+
+	paragraph_frequencies.append(paragraph_text)
+
+def compare():
+	create_paragraphs()
+	get_paragraph_dict(paragraphs[0])
+	get_tweet_dict(tweet)
+
+	tweet_freq = tweet_frequencies[0]["tweet_dict"]
+	paragraph_freq = paragraph_frequencies[0]["paragraph_dict"]
+	for word in tweet_freq:
+		if word in paragraph_freq:
+			print word
+	#print paragraph_frequencies
+
+# print paragraphs[0]
+
+# for paragraph in paragraphs:
+# 	print similar(tweet, paragraph)
+
+if __name__ == '__main__':
+	compare()
