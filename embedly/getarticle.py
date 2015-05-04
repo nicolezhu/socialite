@@ -12,7 +12,7 @@ from embedly import Embedly
 # key = 'f2f84ff5013b443ab711b204590d9aa2'
 
 client = Embedly('f2f84ff5013b443ab711b204590d9aa2')
-result = client.extract('http://www.buzzfeed.com/mjs538/i-followed-my-stolen-iphone-across-the-world-became-a-celebr')
+result = client.extract('https://medium.com/message/yes-to-the-dress-5ec06c06aca4')
 
 article = {}
 article["url"] = result["url"]
@@ -25,5 +25,5 @@ print "Headline:", result["title"]
 print "Description:", result["description"]
 print "Article:", result["content"]
 
-subjects_file = open("../articles/brotherorangearticle.json", "w")
+subjects_file = open("../articles/dressarticle.json", "w")
 print >> json.dump(article, subjects_file, indent=4)

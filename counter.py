@@ -9,7 +9,9 @@ tweet_frequencies = []
 
 for result in data:
 	tweet_text = result['tweet']
-	cleaned_tweet = tweet_text.split()
+	cleaned_tweet = tweet_text.lower().split()
+
+	# make function for cleaning tweet, finding frequency
 
 	c = collections.Counter(cleaned_tweet)
 
@@ -22,6 +24,7 @@ for result in data:
 	freq_dict = {}
 
 	for word in unique_words:
+		# case sensitive!
 		freq_dict[word] = c[word]
 		print '%s : %d' % (word, c[word])
 
