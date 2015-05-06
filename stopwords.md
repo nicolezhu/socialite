@@ -1,0 +1,10 @@
+the
+of
+that
+in
+to
+a
+if
+it
+on
+but

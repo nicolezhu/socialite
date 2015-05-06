@@ -1,3 +1,4 @@
+from __future__ import division
 from difflib import SequenceMatcher
 from bs4 import BeautifulSoup
 import csv
@@ -11,7 +12,8 @@ from urlparse import urljoin
 with open('articles/dressarticle.json') as data_file:
 	data = json.load(data_file)
 
-tweet = "So interesting that @ftrain compares The Dress to \u201cSnow Fall\u201d: https://t.co/SfANq5nAx9 Similarly \u201cgood\u201d in terms of traffic but otherwise?"
+tweet = "#Thedress = \u201cperfect meme, can never be topped: (1) Putting people on 2 teams, (2)  hint of magic (3) some science.\u201d http://t.co/qVvhdvyHfM"
+# tweet = "So interesting that @ftrain compares The Dress to \u201cSnow Fall\u201d: https://t.co/SfANq5nAx9 Similarly \u201cgood\u201d in terms of traffic but otherwise?"
 
 article = data["content"].replace("<div>", "")
 
@@ -70,14 +72,36 @@ def get_paragraph_dict(paragraph):
 
 def compare():
 	create_paragraphs()
-	get_paragraph_dict(paragraphs[0])
 	get_tweet_dict(tweet)
 
-	tweet_freq = tweet_frequencies[0]["tweet_dict"]
-	paragraph_freq = paragraph_frequencies[0]["paragraph_dict"]
-	for word in tweet_freq:
-		if word in paragraph_freq:
-			print word
+	for index, paragraph in enumerate(paragraphs):
+		print paragraph
+		get_paragraph_dict(paragraph)
+		count = 0;
+		tweet_word_length = len(tweet_frequencies[0]["tweet"].split())
+		print tweet_word_length
+
+		tweet_freq = tweet_frequencies[0]["tweet_dict"]
+		paragraph_freq = paragraph_frequencies[index]["paragraph_dict"]
+		for word in tweet_freq:
+			if word in paragraph_freq:
+				print word
+				count += 1
+
+		print count / tweet_word_length
+	
+	# get_paragraph_dict(paragraphs[0])
+	# count = 0;
+	# tweet_word_length = len(tweet_frequencies[0]["tweet"].split())
+	# print tweet_word_length
+
+	# tweet_freq = tweet_frequencies[0]["tweet_dict"]
+	# paragraph_freq = paragraph_frequencies[0]["paragraph_dict"]
+	# for word in tweet_freq:
+	# 	if word in paragraph_freq:
+	# 		print word
+	# 		count += 1
+
 	#print paragraph_frequencies
 
 # print paragraphs[0]
