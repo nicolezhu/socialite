@@ -74,37 +74,26 @@ def compare():
 	create_paragraphs()
 	get_tweet_dict(tweet)
 
+	similarity_scores = []
+
 	for index, paragraph in enumerate(paragraphs):
-		print paragraph
 		get_paragraph_dict(paragraph)
 		count = 0;
 		tweet_word_length = len(tweet_frequencies[0]["tweet"].split())
-		print tweet_word_length
+		# print tweet_word_length
 
 		tweet_freq = tweet_frequencies[0]["tweet_dict"]
 		paragraph_freq = paragraph_frequencies[index]["paragraph_dict"]
 		for word in tweet_freq:
 			if word in paragraph_freq:
-				print word
+				# print word
 				count += 1
 
-		print count / tweet_word_length
-	
-	# get_paragraph_dict(paragraphs[0])
-	# count = 0;
-	# tweet_word_length = len(tweet_frequencies[0]["tweet"].split())
-	# print tweet_word_length
+		similarity_scores.append(count / tweet_word_length)
+		# print count / tweet_word_length
 
-	# tweet_freq = tweet_frequencies[0]["tweet_dict"]
-	# paragraph_freq = paragraph_frequencies[0]["paragraph_dict"]
-	# for word in tweet_freq:
-	# 	if word in paragraph_freq:
-	# 		print word
-	# 		count += 1
-
-	#print paragraph_frequencies
-
-# print paragraphs[0]
+	print similarity_scores
+	# return similarity_scores
 
 # for paragraph in paragraphs:
 # 	print similar(tweet, paragraph)
