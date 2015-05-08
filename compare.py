@@ -13,7 +13,9 @@ from urlparse import urljoin
 with open('articles/dressarticle.json') as data_file:
 	data = json.load(data_file)
 
-tweet = "#Thedress = \u201cperfect meme, can never be topped: (1) Putting people on 2 teams, (2)  hint of magic (3) some science.\u201d http://t.co/qVvhdvyHfM"
+tweet = "Yes to The Dress: \"BuzzFeed garnered 25MM views (&amp; climbing) for its article about the dress,\" article examines why\nhttps://t.co/Nz1JUQlOuh"
+
+# tweet = "#Thedress = \u201cperfect meme, can never be topped: (1) Putting people on 2 teams, (2)  hint of magic (3) some science.\u201d http://t.co/qVvhdvyHfM"
 # tweet = "So interesting that @ftrain compares The Dress to \u201cSnow Fall\u201d: https://t.co/SfANq5nAx9 Similarly \u201cgood\u201d in terms of traffic but otherwise?"
 
 article = data["content"].replace("<div>", "")
@@ -91,7 +93,6 @@ def compare():
 				count += 1
 
 		similarity_scores[index] = (count / tweet_word_length)
-		# print count / tweet_word_length
 
 	print similarity_scores
 
