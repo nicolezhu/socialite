@@ -1,6 +1,7 @@
 from __future__ import division
 from difflib import SequenceMatcher
 from bs4 import BeautifulSoup
+import operator
 import csv
 import itertools
 import collections
@@ -93,6 +94,12 @@ def compare():
 		# print count / tweet_word_length
 
 	print similarity_scores
+
+	highest_score = max(similarity_scores.iteritems(), key=operator.itemgetter(1))[1]
+	highest_score_paragraph = max(similarity_scores.iteritems(), key=operator.itemgetter(1))[0]
+
+	print paragraphs[highest_score_paragraph], highest_score
+
 	# return similarity_scores
 
 # for paragraph in paragraphs:
