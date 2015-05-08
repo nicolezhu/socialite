@@ -74,7 +74,7 @@ def compare():
 	create_paragraphs()
 	get_tweet_dict(tweet)
 
-	similarity_scores = []
+	similarity_scores = {}
 
 	for index, paragraph in enumerate(paragraphs):
 		get_paragraph_dict(paragraph)
@@ -89,7 +89,7 @@ def compare():
 				# print word
 				count += 1
 
-		similarity_scores.append(count / tweet_word_length)
+		similarity_scores[index] = (count / tweet_word_length)
 		# print count / tweet_word_length
 
 	print similarity_scores
