@@ -102,7 +102,6 @@ def compare():
 	print paragraphs[highest_score_paragraph], highest_score
 
 def stop_words():
-	n
 	stopWords = ["a", "able", "about", "after", "all", "almost", "also", "am", "among", "an", "and", "any", "are", "as", "at", "be", "but", "by", "can", "cannot", "could", "did", "do", "does", "else", "ever", "every", "for", "from", "get", "got", "had", "has", "have", "he", "her", "hers", "him", "his", "how", "i", "if", "in", "into", "is", "it", "its", "just", "least", "let", "like", "may", "me", "might", "most", "must", "my", "neither", "no", "nor", "not", "of", "off", "often", "on", "only", "or", "other", "our", "own", "rather", "said","say", "says", "she", "should", "since", "so", "some", "than", "that", "the","their", "them", "then", "there", "these", "they", "this", "to", "too", "twas", "us", "was", "we", "were", "what", "when", "where", "which", "while", "who", "whom", "why", "will", "with", "would", "yet", "you", "your"]
 
 	# return similarity_scores
@@ -111,4 +110,4 @@ def stop_words():
 # 	print similar(tweet, paragraph)
 
 if __name__ == '__main__':
-	compare()
+	# compare()
