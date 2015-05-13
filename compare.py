@@ -13,7 +13,7 @@ from urlparse import urljoin
 with open('articles/dressarticle.json') as data_file:
 	data = json.load(data_file)
 
-tweet = "Yes to The Dress: \"BuzzFeed garnered 25MM views (&amp; climbing) for its article about the dress,\" article examines why\nhttps://t.co/Nz1JUQlOuh"
+# tweet = "Yes to The Dress: \"BuzzFeed garnered 25MM views (&amp; climbing) for its article about the dress,\" article examines why\nhttps://t.co/Nz1JUQlOuh"
 
 # tweet = "#Thedress = \u201cperfect meme, can never be topped: (1) Putting people on 2 teams, (2)  hint of magic (3) some science.\u201d http://t.co/qVvhdvyHfM"
 # tweet = "So interesting that @ftrain compares The Dress to \u201cSnow Fall\u201d: https://t.co/SfANq5nAx9 Similarly \u201cgood\u201d in terms of traffic but otherwise?"
@@ -102,7 +102,7 @@ def compare():
 	print paragraphs[highest_score_paragraph], highest_score
 
 def stop_words():
-	n
+	
 	stopWords = ["a", "able", "about", "after", "all", "almost", "also", "am", "among", "an", "and", "any", "are", "as", "at", "be", "but", "by", "can", "cannot", "could", "did", "do", "does", "else", "ever", "every", "for", "from", "get", "got", "had", "has", "have", "he", "her", "hers", "him", "his", "how", "i", "if", "in", "into", "is", "it", "its", "just", "least", "let", "like", "may", "me", "might", "most", "must", "my", "neither", "no", "nor", "not", "of", "off", "often", "on", "only", "or", "other", "our", "own", "rather", "said","say", "says", "she", "should", "since", "so", "some", "than", "that", "the","their", "them", "then", "there", "these", "they", "this", "to", "too", "twas", "us", "was", "we", "were", "what", "when", "where", "which", "while", "who", "whom", "why", "will", "with", "would", "yet", "you", "your"]
 
 	# return similarity_scores
@@ -111,4 +111,22 @@ def stop_words():
 # 	print similar(tweet, paragraph)
 
 if __name__ == '__main__':
-	compare()
+	with open('articles/dresstweets.json') as data_file:
+		dress_tweets = json.load(data_file)
+
+	demo_tweets = dress_tweets["tweets"]
+
+	for item in demo_tweets:
+		print item
+		tweet = item
+		compare()
+
+
+	# accesing an element in a list that's stored in a dictionary
+	# print 'running script'
+	# tweet = dress_tweets["tweets"][0]
+	# accessing a dictionary in a dictionary
+	# print dress_tweets["tweet_dict"]["terms"]q
+
+
+
