@@ -1,5 +1,4 @@
 from __future__ import division
-from difflib import SequenceMatcher
 from bs4 import BeautifulSoup
 import operator
 import csv
@@ -23,9 +22,6 @@ article = data["content"].replace("<div>", "")
 paragraphs = []
 # tweet_frequencies = []
 paragraph_frequencies = []
-
-def similar(a, b):
-	return SequenceMatcher(None, a, b).ratio()
 
 def create_paragraphs():
 	for item in article.split("</p>"):
@@ -117,20 +113,10 @@ if __name__ == '__main__':
 		dress_tweets = json.load(data_file)
 
 	demo_tweets = dress_tweets["tweets"]
-	tweet = demo_tweets[10]
-	print get_tweet_dict(tweet)
 
-	print tweet
-	compare(tweet)
-
-	print demo_tweets[0]
-	print get_tweet_dict(demo_tweets[0])
-	compare(demo_tweets[0])
-
-	# for item in demo_tweets:
-	# 	print item
-	# 	tweet = item
-	# 	compare(tweet)
+	for tweet in demo_tweets:
+		print tweet
+		compare(tweet)
 
 
 	# accesing an element in a list that's stored in a dictionary
