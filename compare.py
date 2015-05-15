@@ -21,7 +21,7 @@ with open('articles/dressarticle.json') as data_file:
 article = data["content"].replace("<div>", "")
 
 paragraphs = []
-tweet_frequencies = []
+# tweet_frequencies = []
 paragraph_frequencies = []
 
 def similar(a, b):
@@ -35,6 +35,7 @@ def create_paragraphs():
 		# print cleaned_paragraph
 
 def get_tweet_dict(tweet):
+	tweet_frequencies = []
 	cleaned_tweet = tweet.lower().split()
 	c = collections.Counter(cleaned_tweet)
 
@@ -52,6 +53,7 @@ def get_tweet_dict(tweet):
 	# print tweet_text
 
 	tweet_frequencies.append(tweet_text)
+	return tweet_frequencies
 
 
 def get_paragraph_dict(paragraph):
@@ -73,9 +75,8 @@ def get_paragraph_dict(paragraph):
 
 	paragraph_frequencies.append(paragraph_text)
 
-def compare():
-	create_paragraphs()
-	get_tweet_dict(tweet)
+def compare(tweet):
+	tweet_frequencies = get_tweet_dict(tweet)
 
 	similarity_scores = {}
 
@@ -83,7 +84,6 @@ def compare():
 		get_paragraph_dict(paragraph)
 		count = 0;
 		tweet_word_length = len(tweet_frequencies[0]["tweet"].split())
-		# print tweet_word_length
 
 		tweet_freq = tweet_frequencies[0]["tweet_dict"]
 		paragraph_freq = paragraph_frequencies[index]["paragraph_dict"]
@@ -94,18 +94,15 @@ def compare():
 
 		similarity_scores[index] = (count / tweet_word_length)
 
-	print similarity_scores
+	# print similarity_scores
 
 	highest_score = max(similarity_scores.iteritems(), key=operator.itemgetter(1))[1]
 	highest_score_paragraph = max(similarity_scores.iteritems(), key=operator.itemgetter(1))[0]
 
 	print paragraphs[highest_score_paragraph], highest_score
 
+
 def stop_words():
-<<<<<<< HEAD
-	
-=======
->>>>>>> fc8d3979cf49ed733256c332f84989d5ea869ed4
 	stopWords = ["a", "able", "about", "after", "all", "almost", "also", "am", "among", "an", "and", "any", "are", "as", "at", "be", "but", "by", "can", "cannot", "could", "did", "do", "does", "else", "ever", "every", "for", "from", "get", "got", "had", "has", "have", "he", "her", "hers", "him", "his", "how", "i", "if", "in", "into", "is", "it", "its", "just", "least", "let", "like", "may", "me", "might", "most", "must", "my", "neither", "no", "nor", "not", "of", "off", "often", "on", "only", "or", "other", "our", "own", "rather", "said","say", "says", "she", "should", "since", "so", "some", "than", "that", "the","their", "them", "then", "there", "these", "they", "this", "to", "too", "twas", "us", "was", "we", "were", "what", "when", "where", "which", "while", "who", "whom", "why", "will", "with", "would", "yet", "you", "your"]
 
 	# return similarity_scores
@@ -114,16 +111,26 @@ def stop_words():
 # 	print similar(tweet, paragraph)
 
 if __name__ == '__main__':
-<<<<<<< HEAD
+	create_paragraphs()
+
 	with open('articles/dresstweets.json') as data_file:
 		dress_tweets = json.load(data_file)
 
 	demo_tweets = dress_tweets["tweets"]
+	tweet = demo_tweets[10]
+	print get_tweet_dict(tweet)
 
-	for item in demo_tweets:
-		print item
-		tweet = item
-		compare()
+	print tweet
+	compare(tweet)
+
+	print demo_tweets[0]
+	print get_tweet_dict(demo_tweets[0])
+	compare(demo_tweets[0])
+
+	# for item in demo_tweets:
+	# 	print item
+	# 	tweet = item
+	# 	compare(tweet)
 
 
 	# accesing an element in a list that's stored in a dictionary
@@ -131,9 +138,3 @@ if __name__ == '__main__':
 	# tweet = dress_tweets["tweets"][0]
 	# accessing a dictionary in a dictionary
 	# print dress_tweets["tweet_dict"]["terms"]q
-
-
-
-=======
-	# compare()
->>>>>>> fc8d3979cf49ed733256c332f84989d5ea869ed4
