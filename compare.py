@@ -124,12 +124,13 @@ if __name__ == '__main__':
 		# 	print tweet
 		# 	compare(tweet)
 
-	tweet_num = raw_input('Enter the number of a tweet to be analyzed: ')
-	if (tweet_num > 0) and (int(tweet_num) < tweet_len):
-		print ("tweet " + tweet_num)
-		analyze_tweet(tweet_num)
-	else:
-		print ("Please enter a number between 1 and " + str(tweet_len))
+	while True:
+		tweet_num = raw_input('Enter the number of a tweet to be analyzed: ')
+		if (tweet_num > 0) and (int(tweet_num) < tweet_len):
+			print ("tweet " + tweet_num)
+			analyze_tweet(tweet_num)
+		else:
+			print ("Please enter a number between 1 and " + str(tweet_len))
 
 	# tweet = dress_tweets["tweets"][0]
 	# accessing a dictionary in a dictionary
