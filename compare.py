@@ -5,6 +5,7 @@ import csv
 import itertools
 import collections
 import json
+import sys
 from pprint import pprint
 import requests
 from urlparse import urljoin
@@ -113,14 +114,23 @@ if __name__ == '__main__':
 		dress_tweets = json.load(data_file)
 
 	demo_tweets = dress_tweets["tweets"]
+	tweet_len = len(demo_tweets)
 
-	for tweet in demo_tweets:
-		print tweet
-		compare(tweet)
+	def analyze_tweet(tweet_num):
+		tweet = int(tweet_num) - 1
+		print demo_tweets[tweet]
+		compare(demo_tweets[tweet])
+		# for tweet in demo_tweets:
+		# 	print tweet
+		# 	compare(tweet)
 
+	tweet_num = raw_input('Enter the number of a tweet to be analyzed: ')
+	if (tweet_num > 0) and (int(tweet_num) < tweet_len):
+		print ("tweet " + tweet_num)
+		analyze_tweet(tweet_num)
+	else:
+		print ("Please enter a number between 1 and " + str(tweet_len))
 
-	# accesing an element in a list that's stored in a dictionary
-	# print 'running script'
 	# tweet = dress_tweets["tweets"][0]
 	# accessing a dictionary in a dictionary
 	# print dress_tweets["tweet_dict"]["terms"]q
