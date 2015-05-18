@@ -127,8 +127,7 @@ if __name__ == '__main__':
 
 	while True:
 		tweet_num = raw_input('Enter the number of a tweet to be analyzed or "q" to quit the program: ')
-		tweet_num = int(tweet_num)
-		if type(tweet_num) == str:
+		if not(tweet_num.isdigit()):
 			print "Exiting"
 			break
 		elif (int(tweet_num) > 0) and (int(tweet_num) < tweet_len):
