@@ -6,6 +6,7 @@ import itertools
 import collections
 import json
 import sys
+import math
 from pprint import pprint
 import requests
 from urlparse import urljoin
@@ -21,7 +22,6 @@ with open('articles/dressarticle.json') as data_file:
 article = data["content"].replace("<div>", "")
 
 paragraphs = []
-# tweet_frequencies = []
 paragraph_frequencies = []
 
 def create_paragraphs():
@@ -92,7 +92,6 @@ def compare(tweet):
 		similarity_scores[index] = (count / tweet_word_length)
 
 	# print similarity_scores
-
 	highest_score = max(similarity_scores.iteritems(), key=operator.itemgetter(1))[1]
 	highest_score_paragraph = max(similarity_scores.iteritems(), key=operator.itemgetter(1))[0]
 
@@ -120,17 +119,24 @@ if __name__ == '__main__':
 		tweet = int(tweet_num) - 1
 		print demo_tweets[tweet]
 		compare(demo_tweets[tweet])
-		# for tweet in demo_tweets:
-		# 	print tweet
-		# 	compare(tweet)
+	
+	# def compare_all_tweets():
+	# 	for tweet in demo_tweets:
+	# 		print tweet
+	# 		compare(tweet)
 
 	while True:
-		tweet_num = raw_input('Enter the number of a tweet to be analyzed: ')
-		if (tweet_num > 0) and (int(tweet_num) < tweet_len):
-			print ("tweet " + tweet_num)
+		tweet_num = raw_input('Enter the number of a tweet to be analyzed or "q" to quit the program: ')
+		tweet_num = int(tweet_num)
+		if type(tweet_num) == str:
+			print "Exiting"
+			break
+		elif (int(tweet_num) > 0) and (int(tweet_num) < tweet_len):
+			print ("tweet " + str(tweet_num))
 			analyze_tweet(tweet_num)
+			# compare_all_tweets()
 		else:
-			print ("Please enter a number between 1 and " + str(tweet_len))
+			print ("Please enter a valid number between 1 and " + str(tweet_len))
 
 	# tweet = dress_tweets["tweets"][0]
 	# accessing a dictionary in a dictionary
