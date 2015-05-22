@@ -4,6 +4,7 @@ import itertools
 import json
 import requests
 from urlparse import urljoin
+from embedly import Embedly
 from flask import Flask, jsonify, request, make_response
 app = Flask(__name__)
 # flask json mimetype
@@ -23,9 +24,6 @@ def scrape_tweets():
 	api = tweepy.API(auth)
 	url = request.args.get('url')
 	# "http://www.newyorker.com/magazine/2015/02/23/pain-gain"
-	# catch exception - pass back to client, render error in json
-	# authenticate with twiter account - log into account with our tool
-	# multiple keys/values
 
 	user = api.me()
 
@@ -53,6 +51,21 @@ def scrape_tweets():
 
     # use ?url="something"
     # request.qwargs.url
+
+@app.route('/article', methods=['GET'])
+def get_article():
+	url = request.args.get('url')
+	client = Embedly('f2f84ff5013b443ab711b204590d9aa2')
+	result = client.extract(url)
+
+	article = {}
+	article["url"] = result["url"]
+	article["headline"] = result["title"]
+	article["description"] = result["description"]
+	article["content"] = result["content"]
+	response = make_response(json.dumps(article, indent=4))
+	response.headers['Access-Control-Allow-Origin'] = "*"
+	return response
 
 if __name__ == '__main__':
 	app.debug = True
