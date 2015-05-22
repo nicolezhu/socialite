@@ -19,16 +19,14 @@ with open('articles/dressarticle.json') as data_file:
 # tweet = "#Thedress = \u201cperfect meme, can never be topped: (1) Putting people on 2 teams, (2)  hint of magic (3) some science.\u201d http://t.co/qVvhdvyHfM"
 # tweet = "So interesting that @ftrain compares The Dress to \u201cSnow Fall\u201d: https://t.co/SfANq5nAx9 Similarly \u201cgood\u201d in terms of traffic but otherwise?"
 
-article = data["content"].replace("<div>", "")
-
-paragraphs = []
-paragraph_frequencies = []
-
 def create_paragraphs():
+	article = data["content"].replace("<div>", "")
+	paragraphs = []
 	for item in article.split("</p>"):
 		if "<p>" in item:
 			cleaned_paragraph = item.replace("<p>", "")
 			paragraphs.append(cleaned_paragraph)
+		return paragraphs
 		# print cleaned_paragraph
 
 def get_tweet_dict(tweet):
@@ -70,15 +68,16 @@ def get_paragraph_dict(paragraph):
 	paragraph_text['paragraph_dict'] = freq_dict
 	# print paragraph_text
 
-	paragraph_frequencies.append(paragraph_text)
+	return paragraph_text
 
 def compare(tweet):
 	tweet_frequencies = get_tweet_dict(tweet)
-
+	paragraphs = create_paragraphs()
+	paragraph_frequencies = []
 	similarity_scores = {}
 
 	for index, paragraph in enumerate(paragraphs):
-		get_paragraph_dict(paragraph)
+		paragraph_frequencies.append(get_paragraph_dict(paragraph))
 		count = 0;
 		tweet_word_length = len(tweet_frequencies[0]["tweet"].split())
 
@@ -107,7 +106,7 @@ def stop_words():
 # 	print similar(tweet, paragraph)
 
 if __name__ == '__main__':
-	create_paragraphs()
+	# create_paragraphs()
 
 	with open('articles/dresstweets.json') as data_file:
 		dress_tweets = json.load(data_file)
